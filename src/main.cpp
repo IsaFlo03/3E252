@@ -1,4 +1,4 @@
-#include <SerieNavidad>
+#include <SerieNavidad.hpp>
 #include <Foco.hpp>
 #include<iostream>
 using namespace std;

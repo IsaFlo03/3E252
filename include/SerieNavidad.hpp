@@ -13,7 +13,7 @@ public:
     void Encender(){
         for (int numFoco = 0;numFoco < 10; numFoco++)
         {
-            focos[numFocos].Encender();
+            focos[numFoco].Encender();
         }
         
     }
@@ -26,11 +26,10 @@ public:
     void ImprimirSerie(){
         for (int numFoco = 0; numFoco < 10; numFoco++)
         {
-            cout << Focos[numFoco].MostrarEstado();
+            cout << focos[numFoco].MostrarEstado();
         }
         
 
     }
         
-    }
-};
+    };
